@@ -36,7 +36,7 @@ def start_timer():
         timer_label.config(text="Break", font=("Courier", 50, "bold"), fg=RED, bg=YELLOW, highlightthickness=0)
         count_down(long_break_sec)
     elif reps % 2 == 0:
-        timer_label.config(text="Breakeven", font=("Courier", 50, "bold"), fg=PINK, bg=YELLOW, highlightthickness=0)
+        timer_label.config(text="Break", font=("Courier", 50, "bold"), fg=PINK, bg=YELLOW, highlightthickness=0)
         count_down(short_break_sec)
     else:
         timer_label.config(text="Work", font=("Courier", 50, "bold"), fg=GREEN, bg=YELLOW, highlightthickness=0)
